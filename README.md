@@ -25,7 +25,7 @@ It probably works just as well in other environments supported by Node.js, cario
 
 	$ npm install spriteasy
 
-Places the sprightly command in ./node_modules/sprightly/bin
+Places the spriteasy command in ./node_modules/spriteasy/bin
 
 ### With npm globally:
 
@@ -97,8 +97,8 @@ Which works with HTML like this:
 	<!DOCTYPE html>
 	<html>
 		<head>
-			<title>sprightly example</title>
-			<link rel="stylesheet" href="sprite.css"/>
+			<title>spriteasy example</title>
+			<link rel="stylesheet" href="image.css"/>
 		</head>
 		<body>
 			<p>
