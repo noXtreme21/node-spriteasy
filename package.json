@@ -1,0 +1,43 @@
+{
+	"author": {
+		"name":      "Christopher Gross"
+      , "email":     "christopher.gross@zoundfx.com"
+      , "url":       "https://github.com/noXtreme21"
+	}
+  , "name":          "spriteasy"
+  , "description":   "This tool reads multiple images via configuration file or commandline arguments and writes sprite images and stylesheet files to simplify using that sprite in a browser. This tool also provides a posibility to compile less files and merge all generated stylesheet information into one big stylesheet."
+  , "main":          "lib/sprite.js"
+  , "bin": {
+		"sprightly":  "bin/sprite"
+	}
+  , "version":        "0.0.1"
+  , "repository": {
+        "type":       "git",
+        "url":        "git://github.com/noxtreme21/node-spriteasy.git"
+    }
+  , "engines": {
+        "node":       ">=0.6.x"
+    }
+  , "dependencies": {
+        "ansi-color": ">= 0.2.1"
+      , "canvas":     ">= 0.12.0"
+      , "less":       ">= 1.3.0"
+      , "optimist":   ">= 0.0.2"
+    }
+  , "devDependencies": {}
+  , "license": "MIT/X11"
+  , "keywords": [
+        "sprite"
+      , "css"
+      , "html"
+      , "combine"
+      , "merge"
+      , "image"
+      , "icon"
+      , "png"
+      , "minify"
+      , "optimize"
+      , "optimization"
+      , "less"
+    ]
+}
