@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+packageJson = JSON.parse(require('fs').readFileSync('package.json', 'utf8'));
+
+APPLICATION_NAME     = packageJson.name;
+APPLICATION_VERSION  = packageJson.version;
+
+sprite = require('../lib/spriteasy');
+sprite.init();
