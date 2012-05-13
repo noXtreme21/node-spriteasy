@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-packageJson = JSON.parse(require('fs').readFileSync('package.json', 'utf8'));
+packageJson = JSON.parse(require('fs').readFileSync(__dirname + '/../package.json', 'utf8'));
 
 APPLICATION_NAME     = packageJson.name;
 APPLICATION_VERSION  = packageJson.version;
