@@ -5,7 +5,7 @@ This tool reads multiple images via configuration file or commandline arguments 
 
 Wy I wrote this tool? Me and a graphic artist are writing a css3/javascript browsergame and we've a lot of images which have to scale down and be available as sprite images. So this tool make my life easier.
 
-### Tests will be coming soon. More functions for using spriteasy inside a nodejs application will also coming soon. It's also planed to implement functions for generating stylesheets with CSS3 keyframes.
+### Tests will coming soon. More functions for using spriteasy inside a nodejs application will also coming soon. It's also planed to implement functions for generating stylesheets with CSS3 keyframes.
 
 ## Requirements
 
