@@ -1,11 +1,11 @@
 node-spriteasy
 ==============
 
-** This tool reads multiple images via configuration file or commandline arguments and writes sprite images and stylesheet files to simplify using that sprite in a browser. This tool also provides a posibility to compile less files and merge all generated stylesheet information into one big stylesheet.
+### This tool reads multiple images via configuration file or commandline arguments and writes sprite images/stylesheet files to simplify using that sprite images in a browser. This tool also provides a posibility to compile less files and merge all generated stylesheet information into one big stylesheet.
 
 Wy I wrote this tool? Me and a graphic artist are writing a css3/javascript browsergame and we've a lot of images which have to scale down and be available as sprite images. So this tool make my life easier.
 
-** Tests will be coming soon. More functions for using spriteasy inside a nodejs application will also coming soon.
+Tests will be coming soon. More functions for using spriteasy inside a nodejs application will also coming soon. It's also planed to implement functions for generating stylesheets with CSS3 keyframes.
 
 ## Requirements
 
