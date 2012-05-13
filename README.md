@@ -38,14 +38,14 @@ After installation you can use "spriteasy" command in your shell directly.
 ### Show help:
 
 	$ spriteasy --help
-    \=\> [spriteasy]
+    => [spriteasy]
        This tool reads multiple images via configuration file or commandline arguments
        and writes sprite images and stylesheet files to simplify using that sprite in
        a browser. This tool also provides a posibility to compile less files and merge
        all generated stylesheet information into one big stylesheet.
     
-     \* Version: 0.0.1
-     \* Usage: spriteasy [options]
+      * Version: 0.0.1
+      * Usage: spriteasy [options]
     
     Options:
       --help, -h                         show help                                              
