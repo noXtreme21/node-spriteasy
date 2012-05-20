@@ -11,7 +11,7 @@
 		"sprightly":  "bin/sprite"
 	}
   , "scripts": {
-        "test":       "mocha --reporter list"
+        "test":       "make test"
     }
   , "version":        "0.0.1"
   , "repository": {
@@ -27,7 +27,9 @@
       , "less":       ">= 1.3.0"
       , "optimist":   ">= 0.0.2"
     }
-  , "devDependencies": {}
+  , "devDependencies": {
+        "mocha":      "*"
+    }
   , "license": "MIT/X11"
   , "keywords": [
         "sprite"
