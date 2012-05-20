@@ -29,6 +29,7 @@
     }
   , "devDependencies": {
         "mocha":      "*"
+      , "should":     "*"
     }
   , "license": "MIT/X11"
   , "keywords": [
