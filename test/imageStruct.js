@@ -1,7 +1,7 @@
-var ImageStruct = require('../lib/index')
-  , Canvas      = require('canvas')
-  , Image       = Canvas.Image
-  , should      = require('should');
+require('../lib/index');
+var Canvas = require('canvas')
+  , Image  = Canvas.Image
+  , should = require('should');
 
 var imageStruct = new SPRITEASY.ImageStruct(
     new SPRITEASY.ImageReader({
