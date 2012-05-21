@@ -1,0 +1,16 @@
+{
+    "packages": [
+        {
+            "class":            "configuration_image"
+          , "imageDestination": "sprites/configuration_image.png"
+          , "scale":            "100px x 100px"
+          , "mirror":           "false"
+          , "path": [
+                "test/images"
+            ]
+        }
+    ]
+  , "compileLessFiles":      "configuration_less_file.less"
+  , "stylesheetDestination": "configuration_stylesheet.css"
+  , "imageDestination":      "configuration_sprites"
+}

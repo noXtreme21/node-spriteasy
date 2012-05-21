@@ -1,0 +1,9 @@
+{
+        "class":            "package_image"
+      , "imageDestination": "sprites/package_image.png"
+      , "scale":            "200px x 200px"
+      , "mirror":           "vertical"
+      , "path": [
+            "test/images"
+        ]
+}
